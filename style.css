@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Chewer";
+    src: url("./fonts/Chewer.ttf") format("truetype");
+}
+
+body {
+    font-family: "Chewer", sans-serif;
+}
+
+.active-red {
+    color: #ff4444 !important;
+    font-size: 20px;
+}
+
+.light-red {
+    color: #ff4444 !important;
+}
+
+.bg-nav-theme {
+    background-image: -o-linear-gradient(bottom,#131313 90%, #ff4444 50%);
+    background-image: -moz-linear-gradient(bottom, #131313 90%, #ff4444 50%);
+    background-image: -webkit-linear-gradient(bottom,#131313 90%, #ff4444 50%);
+    background-image: -ms-linear-gradient(bottom, #131313 90%, #ff4444 50%);
+    background-image: linear-gradient(to bottom, #131313 90%, #ff4444 50%);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+.card-img-top{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+header.body-background {
+    position: fixed;
+    height: 90vh;
+    width: 100%;
+    background-image:url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+      -webkit-background-size: cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+}
+
+header button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+.footer-theme {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    width: 100%;
+    background-image: -o-linear-gradient(top, #131313 90%, #ff4444 50%);
+    background-image: -moz-linear-gradient(top, #131313 90%, #ff4444 50%);
+    background-image: -webkit-linear-gradient(top, #131313 90%, #ff4444 50%);
+    background-image: -ms-linear-gradient(top, #131313 90%, #ff4444 50%);
+    background-image: linear-gradient(to top, #131313 90%, #ff4444 50%);
+}
+
+.form {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.information-body, .verification-body {
+    background-color: #131313;
+    width:100%; height:100vh;
+    position: fixed;
+}
+
+/* btn color overide */
+.btn-primary {
+    color: #fff;
+    background-color: #131313 !important;
+    border-color: #ff4444;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff4444 !important;
+    border-color: #131313;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #ff4444 !important;
+    box-shadow: 0 0 0 3px rgba(255, 25, 44, 0.5) !important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #ff4444 !important;
+    border-color: #131313;
+}
+
+.btn-primary:active, .btn-primary.active,
+.btn-primary.dropdown-toggle {
+    background-color: #ff4444 !important;
+    background-image: none;
+    border-color: #131313 !important;
+}
+
+.dropdown-menu { 
+    background-color: #ff4444 !important; 
+    color: #131313;
+}
+
+.dropdown-menu > a:hover, .dropdown-menu > a:active
+.dropdown-menu > a:focus {
+    background-color: #131313 !important; 
+    color: white;
+}
+
+/* color texts */
+.color-1 {
+    color: white !important;
+}
+.color-2 {
+    color: #2bff17 !important;
+}
+.color-3 {
+    color: #f1ff32 !important;
+}
+.color-4 {
+    color: #ff4444 !important;
+}
+
+.center {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 368px) {
+    header.body-background{
+        max-height: 90vh;
+        max-width: 100%;
+    }
+}
