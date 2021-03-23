@@ -1,7 +1,7 @@
 // Create and load frame
 const frame_load = function() {
     var getContainer = document.getElementById('container-mod');
-    const FRAME = '<iframe referrerpolicy="no-referrer" src="https://smrturl.co/o/131478/214976?s1=" style="width:100%;height:100vh;background-color:#131313;" title="wall"></iframe>';
+    const FRAME = '<iframe src="//smrturl.co/o/131478/214976?s1=" style="width:100%;height:100vh;background-color:#131313;" title="wall"></iframe>';
     getContainer.innerHTML = FRAME;
 }
 
